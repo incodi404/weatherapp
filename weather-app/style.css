@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Rubik:wght@300;800&display=swap');
+
+* {
+    font-family: 'Poppins', 'Rubik', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #293241;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 27rem;
+    height: 100vh;
+    background-image: url(/img/night2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: -2px 6px 29px 4px #0000005e;
+}
+
+.lower {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    top: 60%;
+    bottom: 0%;
+    background-color: #293241;
+    border-radius: 20px;
+    box-shadow: -2px 6px 29px 4px #0000005e;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+input,
+button {
+    border: none;
+    border-radius: 25px;
+    padding: 5px 13px;
+    background-color: #fff;
+    color: rgb(119, 119, 119);
+    box-shadow: -3px 3px 38px -5px #00000045;
+}
+
+button {
+    color: rgb(112, 112, 112);
+}
+
+input {
+    margin-right: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.weather-img {
+    width: 25%;
+}
+
+.current-weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.current-weather section {
+    text-align: center;
+}
+
+#temp-p {
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #fff;
+}
+
+#place-name {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+    opacity: 0.7;
+    text-shadow: 1px 1px 6px #0000003d;
+}
+
+#current-weather-state {
+    margin: 0;
+    font-weight: 900;
+    background: #121FCF;
+    background: linear-gradient(to bottom, #ffffff 30%, #cf151200 76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 41px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+#feels-like {
+    margin-top: -1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+}
+
+.details {
+    width: 90%;
+    height: 20rem;
+    margin-top: 5rem;
+    position: relative;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    gap: 10px;
+    color: #fff;
+}
+
+.card {
+    background-color: #ffffff2f;
+    padding: 10px;
+    height: 7rem;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+.card-img img {
+    width: 40%;
+}
+
+.card-data {
+    opacity: 0.8;
+}
