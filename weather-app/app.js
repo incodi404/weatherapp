@@ -18,7 +18,7 @@ function display(searchVal) {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'b0fcbcb465mshbbafe00862d6efdp105f35jsnffbfce775c8c',
+            'X-RapidAPI-Key': 'enter-your-api-key',
             'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
         }
     };
